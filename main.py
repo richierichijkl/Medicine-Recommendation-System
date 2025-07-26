@@ -104,10 +104,6 @@ def about():
 def contact():
     return render_template("contact.html")
 
-# developer view funtion and path
-@app.route('/developer')
-def developer():
-    return render_template("developer.html")
 
 # about view funtion and path
 @app.route('/blog')
